@@ -1,3 +1,4 @@
+import 'package:cleancity/screens/usermap/map_trash.dart';
 import 'package:flutter/material.dart';
 import 'package:hexcolor/hexcolor.dart';
 
@@ -22,7 +23,7 @@ class Dashboard extends StatelessWidget {
                 children: [
                   ElevatedButton(onPressed: (){
                     Navigator.of(context).push(MaterialPageRoute(builder: (BuildContext context){
-                      return  LocationTracking();
+                      return  MapTrash();
                     })
                     );
                   }, child: Text("Trash Map"))
