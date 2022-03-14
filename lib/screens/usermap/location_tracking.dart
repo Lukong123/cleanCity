@@ -33,7 +33,7 @@ class _LocationTrackingState extends State<LocationTracking> {
   late StreamSubscription<LocationData> subscription;
 
   late  LocationData currentLocation;
-  late LocationData destinationLocation;
+  LocationData ? destinationLocation;
   //addtional locations
   late LocationData destinationLocation2;
   late LocationData destinationLocation3;
