@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       //theme: theme(),
+
       // ignore: prefer_const_constructors
       home:SplashScrren()
     );

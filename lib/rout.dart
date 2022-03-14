@@ -7,4 +7,5 @@ import 'package:flutter/material.dart';
 final Map<String, WidgetBuilder> routes ={
   SplashScrren.routeName:(context)=>SplashScrren(),
   Onboard.routeName:(context)=>Onboard(),
+
 };
