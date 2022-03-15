@@ -1,15 +1,127 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:hexcolor/hexcolor.dart';
 
-// Form Error
-final RegExp emailValidatorRegExp =
-RegExp(r"^[a-zA-Z0-9.]+@[a-zA-Z0-9]+\.[a-zA-Z]+");
-const String kEmailNullError = "Please Enter your email";
-const String kInvalidEmailError = "Please Enter Valid Email";
-const String kPassNullError = "Please Enter your password";
-const String kShortPassError = "Password is too short";
-const String kMatchPassError = "Passwords don't match";
-const String kNamelNullError = "Please Enter your name";
-const String kPhoneNumberNullError = "Please Enter your phone number";
-const String kAddressNullError = "Please Enter your address";
+const primarycolor = Color(0xFF12A4EF);
+//const secondarycolor = Color(0xFF40EFB8);
+const textcolor = Color(0xFF444444);
+const orangecolor = Color(0xFFFFA070);
+//const darkbluecolor = Color(0xFF694DE8);
+const purplecolor = Color(0xFF7960E2);
+const secondarycolor = Color(0xFFF86272);
 
+double screenHeight = MediaQueryData().size.height;
+double screenWidth = MediaQueryData().size.width;
+
+/// body font size setter
+
+double bodyFontSizeSetter() {
+  double customBodyFontSize;
+  if (screenWidth < 800) {
+    customBodyFontSize = 14;
+  }
+  {
+    customBodyFontSize = 16;
+  }
+  return customBodyFontSize;
+}
+
+/// end body font size setter
+
+/// header font size setter
+
+double headerFontSizeSetter() {
+  double customHeaderFontSize;
+  if (screenWidth < 800) {
+    customHeaderFontSize = 16;
+  }
+  {
+    customHeaderFontSize = 20;
+  }
+  return customHeaderFontSize;
+}
+
+/// end header font size setter
+
+/////// Custom Body Text Widget  /////////////
+class BodyText extends StatelessWidget {
+  final String title;
+  final color;
+
+  BodyText({required Key key, required this.title, required this.color})
+      : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Text(
+      title,
+      style: TextStyle(
+        fontWeight: FontWeight.normal,
+        fontSize: bodyFontSizeSetter(),
+        color: color,
+      ),
+    );
+  }
+}
+
+class BodyTextBold extends StatelessWidget {
+  final String title;
+  final color;
+
+  const BodyTextBold({required Key key, required this.title, this.color})
+      : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Text(
+      title,
+      style: TextStyle(
+        fontWeight: FontWeight.bold,
+        fontSize: bodyFontSizeSetter(),
+        color: color,
+      ),
+    );
+  }
+}
+
+////////////// Custom Headline Text Widget/////////
+class HeadlineText extends StatelessWidget {
+  final String title;
+  final color;
+
+  const HeadlineText(
+      {required Key key, required this.title, required this.color})
+      : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Text(
+      title,
+      style: TextStyle(
+        fontSize: headerFontSizeSetter(),
+        fontWeight: FontWeight.normal,
+        color: color,
+      ),
+    );
+  }
+}
+
+class HeadlineTextBold extends StatelessWidget {
+  final String title;
+  final color;
+
+  const HeadlineTextBold(
+      {required Key key, required this.title, required this.color})
+      : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Text(
+      title,
+      style: TextStyle(
+        fontSize: headerFontSizeSetter(),
+        fontWeight: FontWeight.bold,
+        color: color,
+      ),
+    );
+  }
+}

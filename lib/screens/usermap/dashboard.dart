@@ -2,8 +2,6 @@ import 'package:cleancity/screens/usermap/map_trash.dart';
 import 'package:flutter/material.dart';
 import 'package:hexcolor/hexcolor.dart';
 
-import 'location_tracking.dart';
-
 class Dashboard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
