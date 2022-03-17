@@ -32,8 +32,24 @@ You can get the app <a href="#">Here</a>
 - flutter_svg: ^0.19.1
 - shared_preferences: ^2.0.5
 
+# Build and Run the app
+
+- Open the project on Android Studio or intellij.
+- Get your Google Maps API key. For Android, follow instructions here
+- Add the API key to your Flutter app in the application manifest (android/app/src/main/AndroidManifest.xml), as follows:
+```
+<application
+    <meta-data android:name="com.google.android.geo.API_KEY"
+            android:value="YOUR API KEY" />
+
+```
+- Run the code on Android studio and view the app on your emulator of choice or mobile device. You can also run the app from the terminal using  
+```
+flutter run 
+```
+
 ## Contributors
 - Lukong Anne M. <annemachinda@gmail.com>
-- Nfon Andrew <nfonandrew73@gmail.com> |Twitter:  <https://twitter.com/nfonandrew73>
-- Nyong Godwill Nkwain <nyonggodwill11@gmail.com> |Twitter: <https://twitter.com/nyong_goddy>
+- Nfon Andrew <nfonandrew73@gmail.com> 
+- Nyong Godwill Nkwain <nyonggodwill11@gmail.com>
 - Ngwa Jude <>
