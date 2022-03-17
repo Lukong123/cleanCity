@@ -17,7 +17,10 @@ route to these places so it can be emptied. This will go a long way to reducing
 - Locate all nearest trash places around you
 - Show approximate distance from user to a trash place
 - Get directions to the trash place.
+- show shortest route to full trash place
 - ## Admin
+- Calculate Trash level
+- Notify the Local council with info about trash level
 - get Notification of trash places that are full
 - Show approximate distance from user to a trash place
 - Get directions to the trash place.
@@ -56,7 +59,7 @@ flutter run
 ```
 
 ## Contributors
-- Lukong Anne M. <annemachinda@gmail.com>
-- Nfon Andrew <nfonandrew73@gmail.com> 
-- Nyong Godwill Nkwain <nyonggodwill11@gmail.com>
-- Ngwa Jude <>
+- Lukong Anne M.        |<annemachinda@gmail.com>
+- Nfon Andrew           |<nfonandrew73@gmail.com> 
+- Nyong Godwill Nkwain  |<nyonggodwill11@gmail.com>
+- Ngwa Jude             |<ngwa.jude@gmail.com>
