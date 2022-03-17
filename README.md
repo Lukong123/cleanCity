@@ -7,9 +7,9 @@ Research has proven that about 60% of water pollution is attributed to litter. o
 
 # Key Features
 - ## User
-Locate all nearest trash places around you
-Show approximate distance from user to a trash place
-Get directions to the trash place.
+- Locate all nearest trash places around you
+- Show approximate distance from user to a trash place
+- Get directions to the trash place.
 - ## Admin
 get Notification of trash places that are full
 Show approximate distance from user to a trash place
