@@ -34,6 +34,6 @@ You can get the app <a href="#">Here</a>
 
 ## Contributors
 - Lukong Anne M. <annemachinda@gmail.com>
-- Nfon Andrew <nfonandrew73@gmail.com> | <https://twitter.com/nfonandrew73>
-- Nyong Godwill Nkwain <nyonggodwill11@gmail.com> | <https://twitter.com/nyong_goddy>
+- Nfon Andrew <nfonandrew73@gmail.com> |Twitter:  <https://twitter.com/nfonandrew73>
+- Nyong Godwill Nkwain <nyonggodwill11@gmail.com> |Twitter: <https://twitter.com/nyong_goddy>
 - Ngwa Jude <>
