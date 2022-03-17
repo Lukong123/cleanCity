@@ -1,5 +1,6 @@
 import 'package:cleancity/screens/usermap/dashboard.dart';
 import 'package:cleancity/screens/usermap/location_tracking.dart';
+import 'package:cleancity/screens/usermap/map_trash.dart';
 import 'package:cleancity/screens/usermap/trash_map.dart';
 import 'package:cleancity/theme.dart';
 import 'package:flutter/material.dart';
@@ -14,7 +15,7 @@ class _BodyState extends State<Body> {
   int currentIndex = 0;
   final scrrens=[
     Dashboard(),
-    LocationTracking(),
+    MapTrash(),
   ];
   @override
   Widget build(BuildContext context)=>Scaffold(
@@ -32,6 +33,7 @@ class _BodyState extends State<Body> {
               icon: Icon(Icons.home,),
               label:'Home',
               backgroundColor: Colors.blueAccent,
+
             ),
             BottomNavigationBarItem(
               icon: Icon(Icons.location_on_outlined),
