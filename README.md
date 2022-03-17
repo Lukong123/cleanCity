@@ -1,9 +1,16 @@
 # cleancity
 
-In Bamenda, as in most places in Cameroon, there is a problem when it comes to disposing of dirt properly.
-The increase in haphazard dumping of dirt is alarming, and this deprives us of a conducive environment.
-Research shows that dirt thrown carelessly into the environment not only affects the land but the air, oceans, and our health too.
-Research has proven that about 60% of water pollution is attributed to litter. obile development, and a full API reference.
+The outcome of indiscriminate disposal of solid wastes expose human to environmental
+degradation such as in flooding, drainage obstruction, widespread of infectious diseases,
+cholera, diarrhea typhoid fever, waterway blockage which leads to infestation of flies, ticks and
+breeding of mosquitoes that cause malaria, this can go a long way to putting the health of the
+community at stake.
+
+CleanCity aims at reducing environmental degradation degradation such as in flooding,
+drainage obstruction, the spread of environmental infections such as cholera and malaria. offers
+the community with solution to locating closest trash places to dump, provides local councils
+with solution which notifies them on trash places within the community that are full and the
+route to these places so it can be emptied. This will go a long way to reducing
 
 # Key Features
 - ## User
