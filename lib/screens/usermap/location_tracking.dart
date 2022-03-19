@@ -1,5 +1,4 @@
 import 'dart:async';
-import 'dart:ffi';
 import 'package:cleancity/screens/usermap/distance.dart';
 import 'package:cleancity/screens/usermap/google_map_api.dart';
 import 'package:flutter/material.dart';
