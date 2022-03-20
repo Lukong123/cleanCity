@@ -13,6 +13,9 @@ with solution which notifies them on trash places within the community that are 
 route to these places so it can be emptied. This will go a long way to reducing
 
 # Key Features
+<img src = "assets/images/locate.png">
+<img src = "assets/images/route.png">
+<img src = "assets/images/">
 - ## User
 - Locate all nearest trash places around you
 - Show approximate distance from user to a trash place
