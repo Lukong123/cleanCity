@@ -14,10 +14,11 @@ route to these places so it can be emptied. This will go a long way to reducing
 
 # Key Features
 <p float="left" >
-<img src = "assets/images/locate.png" width="200px">
-<img src = "assets/images/route.png" width="200px">
-<img src = "assets/images/splash.png" width="200px">
+<img src = "assets/images/splash.png" width="200px" margin="10px">
+<img src = "assets/images/locate.png" width="200px" margin="10px">
+<img src = "assets/images/route.png" width="200px" margin="10px">
 </p>
+
 - ## User
 - Locate all nearest trash places around you
 - Show approximate distance from user to a trash place
