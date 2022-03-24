@@ -5,8 +5,8 @@
     </li>
     <li>
         <a href="#Features">Key Features</a>
-        <ul><li><a href="#User"></a>User</li>
-        <li><a href="#Admin"></a>Admin</li></ul>
+        <ul><li><a href="#User">User</a></li>
+        <li><a href="#Admin">Admin</a></li></ul>
     </li>
     <li>
         <a href="#App">Get the App</a>
@@ -16,6 +16,9 @@
     </li>
     <li>
         <a href="#Build">Build and run the app</a>
+    </li>
+     <li>
+        <a href="#Contribute">Build and run the app</a>
     </li>
     <li>
         <a href="#TODOS">ToDos</a>
@@ -91,6 +94,30 @@ You can get the app <a href="#">Here</a>
 ```
 flutter run 
 ```
+
+# Contribute
+## Contribute To the App
+Are you interested in making this app better, 
+- clone the app using
+``` git clone #apprepoLink
+```
+- open with your prefered android editor and make your changes inside the src directory
+- done?, stage and commit your changes 
+```
+git add FILECHANGED
+git commit -m "description of change made
+```
+- now create a branch with the name describing the changes you made
+```
+git checkout -b descriptive_branch_name
+```
+- push to the branch
+``` 
+git push --set-upstream origin descriptive_branch_name
+```
+- Open a pull request with some description of what you have done
+
+- Thanks~~~
 
 ## TODOS
 - Improve the User Interface
