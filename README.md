@@ -26,6 +26,9 @@
     <li>
         <a href="#Contributors">Contributors</a>
     </li>
+     <li>
+        <a href="#LICENSE">Contributors</a>
+    </li>
 </ul>
 
 # cleancity
@@ -99,7 +102,8 @@ flutter run
 ## Contribute To the App
 Are you interested in making this app better, 
 - clone the app using
-``` git clone #apprepoLink
+``` 
+git clone #apprepoLink
 ```
 - open with your prefered android editor and make your changes inside the src directory
 - done?, stage and commit your changes 
@@ -129,3 +133,6 @@ git push --set-upstream origin descriptive_branch_name
 - Nfon Andrew           |<nfonandrew73@gmail.com> 
 - Nyong Godwill Nkwain  |<nyonggodwill11@gmail.com>
 - Ngwa Jude             |<ngwa.jude@gmail.com>
+
+# LICENSE
+this app is a free app, you are free to modify and use under the <a href="https://opensource.org/licenses/MIT">MIT</a> LICENSE
