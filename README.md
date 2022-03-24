@@ -5,8 +5,8 @@
     </li>
     <li>
         <a href="#Features">Key Features</a>
-        <li><a href="#User"></a>User</li>
-        <li><a href="#Admin"></a>Admin</li>
+        <ul><li><a href="#User"></a>User</li>
+        <li><a href="#Admin"></a>Admin</li></ul>
     </li>
     <li>
         <a href="#App">Get the App</a>
@@ -18,7 +18,10 @@
         <a href="#Build">Build and run the app</a>
     </li>
     <li>
-        <a href="#"></a>
+        <a href="#TODOS">ToDos</a>
+    </li>
+    <li>
+        <a href="#Contributors">Contributors</a>
     </li>
 </ul>
 
@@ -72,6 +75,7 @@ You can get the app <a href="#">Here</a>
 - flutter_svg: ^0.19.1
 - shared_preferences: ^2.0.5
 
+# Build
 # Build and Run the app
 
 - Open the project on Android Studio or intellij.
