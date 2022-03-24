@@ -1,16 +1,32 @@
 # cleancity
 
-In Bamenda, as in most places in Cameroon, there is a problem when it comes to disposing of dirt properly.
-The increase in haphazard dumping of dirt is alarming, and this deprives us of a conducive environment.
-Research shows that dirt thrown carelessly into the environment not only affects the land but the air, oceans, and our health too.
-Research has proven that about 60% of water pollution is attributed to litter. obile development, and a full API reference.
+The outcome of indiscriminate disposal of solid wastes expose human to environmental
+degradation such as in flooding, drainage obstruction, widespread of infectious diseases,
+cholera, diarrhea typhoid fever, waterway blockage which leads to infestation of flies, ticks and
+breeding of mosquitoes that cause malaria, this can go a long way to putting the health of the
+community at stake.
+
+CleanCity aims at reducing environmental degradation degradation such as in flooding,
+drainage obstruction, the spread of environmental infections such as cholera and malaria. offers
+the community with solution to locating closest trash places to dump, provides local councils
+with solution which notifies them on trash places within the community that are full and the
+route to these places so it can be emptied. This will go a long way to reducing
 
 # Key Features
+<p float="left" >
+<img src = "assets/images/splash.png" width="200px" margin="50px">
+<img src = "assets/images/locate.png" width="200px" margin="50px">
+<img src = "assets/images/route.png" width="200px" margin="50px">
+</p>
+
 - ## User
 - Locate all nearest trash places around you
 - Show approximate distance from user to a trash place
 - Get directions to the trash place.
+- show shortest route to full trash place
 - ## Admin
+- Calculate Trash level
+- Notify the Local council with info about trash level
 - get Notification of trash places that are full
 - Show approximate distance from user to a trash place
 - Get directions to the trash place.
@@ -32,8 +48,24 @@ You can get the app <a href="#">Here</a>
 - flutter_svg: ^0.19.1
 - shared_preferences: ^2.0.5
 
+# Build and Run the app
+
+- Open the project on Android Studio or intellij.
+- Get your Google Maps API key. For Android, follow instructions here
+- Add the API key to your Flutter app in the application manifest (android/app/src/main/AndroidManifest.xml), as follows:
+```
+<application
+    <meta-data android:name="com.google.android.geo.API_KEY"
+            android:value="YOUR API KEY" />
+
+```
+- Run the code on Android studio and view the app on your emulator of choice or mobile device. You can also run the app from the terminal using  
+```
+flutter run 
+```
+
 ## Contributors
-- Lukong Anne M. <annemachinda@gmail.com>
-- Nfon Andrew <nfonandrew73@gmail.com> |Twitter:  <https://twitter.com/nfonandrew73>
-- Nyong Godwill Nkwain <nyonggodwill11@gmail.com> |Twitter: <https://twitter.com/nyong_goddy>
-- Ngwa Jude <>
+- Lukong Anne M.        |<annemachinda@gmail.com>
+- Nfon Andrew           |<nfonandrew73@gmail.com> 
+- Nyong Godwill Nkwain  |<nyonggodwill11@gmail.com>
+- Ngwa Jude             |<ngwa.jude@gmail.com>
