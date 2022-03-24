@@ -1,3 +1,27 @@
+# Table of Contents
+<ul>
+    <li>
+        <a href="#cleancity">Introduction</a>
+    </li>
+    <li>
+        <a href="#Features">Key Features</a>
+        <li><a href="#User"></a>User</li>
+        <li><a href="#Admin"></a>Admin</li>
+    </li>
+    <li>
+        <a href="#App">Get the App</a>
+    </li>
+    <li>
+        <a href="#Requirement">Requirements</a>
+    </li>
+    <li>
+        <a href="#Build">Build and run the app</a>
+    </li>
+    <li>
+        <a href="#"></a>
+    </li>
+</ul>
+
 # cleancity
 
 The outcome of indiscriminate disposal of solid wastes expose human to environmental
@@ -12,7 +36,7 @@ the community with solution to locating closest trash places to dump, provides l
 with solution which notifies them on trash places within the community that are full and the
 route to these places so it can be emptied. This will go a long way to reducing
 
-# Key Features
+# Features
 <p float="left" >
 <img src = "assets/images/splash.png" width="200px" margin="50px">
 <img src = "assets/images/locate.png" width="200px" margin="50px">
@@ -32,7 +56,7 @@ route to these places so it can be emptied. This will go a long way to reducing
 - Get directions to the trash place.
 - show shortest route to full trash place
 
-# Get The App
+# App
 You can get the app <a href="#">Here</a>
 
 # Requirements
@@ -64,6 +88,11 @@ You can get the app <a href="#">Here</a>
 flutter run 
 ```
 
+## TODOS
+- Improve the User Interface
+- Integrate GPS services
+- Integrate more locations
+- Add Sensitization messages on home screen.
 ## Contributors
 - Lukong Anne M.        |<annemachinda@gmail.com>
 - Nfon Andrew           |<nfonandrew73@gmail.com> 
