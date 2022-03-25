@@ -1,3 +1,36 @@
+# Table of Contents
+<ul>
+    <li>
+        <a href="#cleancity">Introduction</a>
+    </li>
+    <li>
+        <a href="#Features">Key Features</a>
+        <ul><li><a href="#User">User</a></li>
+        <li><a href="#Admin">Admin</a></li></ul>
+    </li>
+    <li>
+        <a href="#App">Get the App</a>
+    </li>
+    <li>
+        <a href="#Requirement">Requirements</a>
+    </li>
+    <li>
+        <a href="#Build">Build and run the app</a>
+    </li>
+     <li>
+        <a href="#Contribute">Build and run the app</a>
+    </li>
+    <li>
+        <a href="#TODOS">ToDos</a>
+    </li>
+    <li>
+        <a href="#Contributors">Contributors</a>
+    </li>
+     <li>
+        <a href="#LICENSE">Contributors</a>
+    </li>
+</ul>
+
 # cleancity
 
 The outcome of indiscriminate disposal of solid wastes expose human to environmental
@@ -12,7 +45,7 @@ the community with solution to locating closest trash places to dump, provides l
 with solution which notifies them on trash places within the community that are full and the
 route to these places so it can be emptied. This will go a long way to reducing
 
-# Key Features
+# Features
 <p float="left" >
 <img src = "assets/images/splash.png" width="200px" margin="50px">
 <img src = "assets/images/locate.png" width="200px" margin="50px">
@@ -32,7 +65,7 @@ route to these places so it can be emptied. This will go a long way to reducing
 - Get directions to the trash place.
 - show shortest route to full trash place
 
-# Get The App
+# App
 You can get the app <a href="#">Here</a>
 
 # Requirements
@@ -48,6 +81,7 @@ You can get the app <a href="#">Here</a>
 - flutter_svg: ^0.19.1
 - shared_preferences: ^2.0.5
 
+# Build
 # Build and Run the app
 
 - Open the project on Android Studio or intellij.
@@ -64,8 +98,41 @@ You can get the app <a href="#">Here</a>
 flutter run 
 ```
 
+# Contribute
+## Contribute To the App
+Are you interested in making this app better, 
+- clone the app using
+``` 
+git clone #apprepoLink
+```
+- open with your prefered android editor and make your changes inside the src directory
+- done?, stage and commit your changes 
+```
+git add FILECHANGED
+git commit -m "description of change made
+```
+- now create a branch with the name describing the changes you made
+```
+git checkout -b descriptive_branch_name
+```
+- push to the branch
+``` 
+git push --set-upstream origin descriptive_branch_name
+```
+- Open a pull request with some description of what you have done
+
+- Thanks~~~
+
+## TODOS
+- Improve the User Interface
+- Integrate GPS services
+- Integrate more locations
+- Add Sensitization messages on home screen.
 ## Contributors
 - Lukong Anne M.        |<annemachinda@gmail.com>
 - Nfon Andrew           |<nfonandrew73@gmail.com> 
 - Nyong Godwill Nkwain  |<nyonggodwill11@gmail.com>
 - Ngwa Jude             |<ngwa.jude@gmail.com>
+
+# LICENSE
+this app is a free app, you are free to modify and use under the <a href="https://opensource.org/licenses/MIT">MIT</a> LICENSE
