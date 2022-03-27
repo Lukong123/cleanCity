@@ -49,7 +49,7 @@ route to these places so it can be emptied. This will go a long way to reducing
 
 - ## User
 <p float="left" >
-<img src = "assets/images/user_mockup2">
+<img src = "assets/images/user_mockup2.png">
 </p>
 - Locate all nearest trash places around you
 - Show approximate distance from user to a trash place
@@ -59,7 +59,7 @@ route to these places so it can be emptied. This will go a long way to reducing
 - ## Admin
 
 <p float="left" >
-<img src = "assets/images/m.png">
+<img src = "assets/images/m2.png">
 </p
 - Calculate Trash level
 - Notify the Local council with info about trash level
