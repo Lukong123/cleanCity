@@ -55,7 +55,9 @@ route to these places so it can be emptied. This will go a long way to reducing
 - Show approximate distance from user to a trash place
 - Get directions to the trash place.
 - show shortest route to full trash place
+
 - ## Admin
+
 <p float="left" >
 <img src = "assets/images/user_mockup2.png">
 </p
