@@ -47,9 +47,7 @@ route to these places so it can be emptied. This will go a long way to reducing
 
 # Features
 <p float="left" >
-<img src = "assets/images/splash.png" width="200px" margin="50px">
-<img src = "assets/images/locate.png" width="200px" margin="50px">
-<img src = "assets/images/route.png" width="200px" margin="50px">
+<img src = "assets/images/m.png">
 </p>
 
 - ## User
