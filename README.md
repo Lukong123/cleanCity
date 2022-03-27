@@ -46,16 +46,19 @@ with solution which notifies them on trash places within the community that are 
 route to these places so it can be emptied. This will go a long way to reducing
 
 # Features
+
+- ## User
 <p float="left" >
 <img src = "assets/images/m.png">
 </p>
-
-- ## User
 - Locate all nearest trash places around you
 - Show approximate distance from user to a trash place
 - Get directions to the trash place.
 - show shortest route to full trash place
 - ## Admin
+<p float="left" >
+<img src = "assets/images/same_m2.png">
+</p
 - Calculate Trash level
 - Notify the Local council with info about trash level
 - get Notification of trash places that are full
