@@ -57,7 +57,7 @@ route to these places so it can be emptied. This will go a long way to reducing
 - show shortest route to full trash place
 - ## Admin
 <p float="left" >
-<img src = "assets/images/same_m2.png">
+<img src = "assets/images/user_mockup2.png">
 </p
 - Calculate Trash level
 - Notify the Local council with info about trash level
