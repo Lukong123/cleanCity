@@ -1,6 +1,5 @@
 import 'package:cleancity/screens/onboard/body.dart';
 import 'package:flutter/material.dart';
-import 'package:hexcolor/hexcolor.dart';
 
 class Onboard extends StatefulWidget {
   static String routeName = "/onboard";

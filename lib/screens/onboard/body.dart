@@ -1,5 +1,4 @@
-// ignore_for_file: prefer_const_constructors
-
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:cleancity/screens/dashboard/dashboard.dart';
 import 'package:cleancity/screens/onboard/content.dart';
 import 'package:flutter/cupertino.dart';
@@ -45,29 +44,38 @@ class _BodyState extends State<Body> {
                    padding: const EdgeInsets.all(8.0),
                    child: Column(
                      children: [
-                       Padding(
-                         padding: const EdgeInsets.only(top: 150),
-                         child: Text(
+                       SizedBox(height:20,
+                         child: Padding(
+                           padding: const EdgeInsets.only(bottom: 150),
+                           child: Text(
                      contents[i].title,
                      textAlign: TextAlign.center,
                      style: TextStyle(
-                         fontFamily: "Inter",
-                         fontSize: 35,
-                         fontWeight: FontWeight.bold,
-                            ),
+                           fontFamily: "Inter",
+                           fontSize: 35,
+                           fontWeight: FontWeight.bold,
+                              ),
+                           ),
                          ),
                        ),
-                       SizedBox(height: 15,),
-                       Image.asset(contents[i].image,),
+                       SizedBox(height: 8,),
+                       Padding(
+                         padding: const EdgeInsets.only(top: 120,),
+                         child: SvgPicture.asset(contents[i].svgPictures,
+                         width: 300,),
+                       ),
                        Center(
-                         child: Text(
-                           contents[i].discription,
-                           textAlign: TextAlign.center,
-                           style: TextStyle(
-                             fontFamily: "Inter",
-                             fontWeight: FontWeight.bold,
-                             fontSize: 20,
-                             color: HexColor("#010117"),
+                         child: Padding(
+                           padding: const EdgeInsets.only(top: 30,),
+                           child: Text(
+                             contents[i].discription,
+                             textAlign: TextAlign.center,
+                             style: TextStyle(
+                               fontFamily: "Inter",
+                               fontWeight: FontWeight.bold,
+                               fontSize: 20,
+                               color: HexColor("#010117"),
+                             ),
                            ),
                          ),
                        )
@@ -77,8 +85,9 @@ class _BodyState extends State<Body> {
               },
             ),
           ),
+          ///dots section
           Padding(
-            padding: const EdgeInsets.only(bottom: 15),
+            padding: const EdgeInsets.only(bottom: 20),
             child: Container(
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
@@ -89,10 +98,10 @@ class _BodyState extends State<Body> {
             ),
           ),
           Padding(
-            padding: const EdgeInsets.only(bottom: 30),
+            padding: const EdgeInsets.only(bottom: 70),
             child: Container(
               height: 60,
-              margin: EdgeInsets.all(15),
+              margin: EdgeInsets.all(20),
               width: double.infinity,
               // ignore: deprecated_member_use
               child: FlatButton(
@@ -103,6 +112,7 @@ class _BodyState extends State<Body> {
                   fontWeight: FontWeight.bold,
                 ),
                 ),
+                height: 30,
                 onPressed: (){
                   if(currentIndex == contents.length-1){
                     Navigator.push(context, MaterialPageRoute(builder: (_)=>Dashboard()));
@@ -125,7 +135,7 @@ class _BodyState extends State<Body> {
   Container buildDot(int index,BuildContext context) {
     return Container(
               height: 10,
-              width: currentIndex== index ? 20:10,
+              width: currentIndex== index ? 30:10,
               margin: EdgeInsets.only(right: 4),
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(20),
