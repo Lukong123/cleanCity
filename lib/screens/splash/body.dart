@@ -1,10 +1,10 @@
 import 'dart:async';
-
 import 'package:cleancity/screens/onboard/onboard.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:hexcolor/hexcolor.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
 class Body extends StatefulWidget {
   const Body({Key? key}) : super(key: key);
@@ -23,7 +23,7 @@ class StartState extends State<Body> {
     startTimer();
   }
   startTimer() async{
-    var duration = Duration(seconds: 7);
+    var duration = const Duration(seconds: 7);
     return Timer(duration, route);
   }
   route(){
@@ -36,23 +36,36 @@ class StartState extends State<Body> {
         fit: StackFit.expand,
         children: <Widget>[
           Container(
-            decoration: BoxDecoration(
+            decoration: const BoxDecoration(
               color: Colors.white,
             ),
           ),
           Column(
-            mainAxisAlignment: MainAxisAlignment.start,
+            mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               Expanded(
-                flex: 2,
-                  child: Container(
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: <Widget>[
-                        Image.asset("assets/images/logo.png",
-                        width: 150,
-                        height: 200,)
-                      ],
+                  flex: 2,
+                  child: SizedBox(height: 150,
+                    child: Container(
+                      padding: const EdgeInsets.only(top: 30.0),
+                      margin: EdgeInsets.only(top: 60),
+                      child: Center(
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          crossAxisAlignment: CrossAxisAlignment.center,
+                          children: [
+                            SvgPicture.asset('assets/images/keepclean.svg',
+                              height: 100,
+                              width: 100,),
+                            const Text("CleanCity",
+                              style: TextStyle(
+                                fontSize: 25,
+                                fontFamily: "Inter",
+                                fontWeight: FontWeight.bold,
+                              ),)
+                          ],
+                        ),
+                      ),
                     ),
                   )
               ),
@@ -63,10 +76,10 @@ class StartState extends State<Body> {
                       SpinKitSpinningLines(
                            color: HexColor("#1565C0")
                       ),
-                      Padding(
+                      const Padding(
                           padding: EdgeInsets.only(top: 10),
                       ),
-                      Text("Powered By Teamclean",
+                      const Text("Powered By Teamclean",
                         style: TextStyle(
                           fontFamily: "Inter",
                           fontSize: 15,
