@@ -103,11 +103,16 @@ flutter run
 
 # Contribute
 ## Contribute To the App
-Are you interested in making this app better, 
-- clone the app using
+Are you interested in making this app better, there are two parts of the app as listed above
+- clone user app here 
 ``` 
-git clone #apprepoLink
+git clone https://github.com/City-solutions/cleanCity
 ```
+- clone admin app here
+```
+git clone https://github.com/City-solutions/CleanAdmin
+```
+
 - open with your prefered android editor and make your changes inside the src directory
 - done?, stage and commit your changes 
 ```
@@ -132,10 +137,12 @@ git push --set-upstream origin descriptive_branch_name
 - Integrate more locations
 - Add Sensitization messages on home screen.
 ## Contributors
-- Lukong Anne M.        |<annemachinda@gmail.com>
-- Nfon Andrew           |<nfonandrew73@gmail.com> 
-- Nyong Godwill Nkwain  |<nyonggodwill11@gmail.com>
-- Ngwa Jude             |<ngwa.jude@gmail.com>
+| # Name                      |               # Email    |   # Twitter                      |
+| :---------------------:   | :---------------------:   | :-------------------:             |
+| Lukong Anne M             | <annemachinda@gmail.com>  |https://twitter.com/anne_machinda  |
+| Nfon Andrew T             | <nfonandrew73@gmail.com>  |https://twitter.com/nfonandrew73   |
+| Nyong Godwill N           | <nyonggodwill11@gmail.com>|https://twitter.com/nyong_godwill  |
+| Ngwa Jude A               | <ngwa.jude@gmail.com>     |https://twitter.com/judisco_jardon |
 
 # LICENSE
 this app is a free app, you are free to modify and use under the <a href="https://opensource.org/licenses/MIT">MIT</a> LICENSE
