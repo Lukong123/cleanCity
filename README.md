@@ -137,12 +137,12 @@ git push --set-upstream origin descriptive_branch_name
 - Integrate more locations
 - Add Sensitization messages on home screen.
 ## Contributors
-| # Name                      |               # Email    |   # Twitter                      |
-| :---------------------:   | :---------------------:   | :-------------------:             |
-| Lukong Anne M             | <annemachinda@gmail.com>  |https://twitter.com/anne_machinda  |
-| Nfon Andrew T             | <nfonandrew73@gmail.com>  |https://twitter.com/nfonandrew73   |
-| Nyong Godwill N           | <nyonggodwill11@gmail.com>|https://twitter.com/nyong_godwill  |
-| Ngwa Jude A               | <ngwa.jude@gmail.com>     |https://twitter.com/judisco_jardon |
+| # Name                      |        # Email          |   # Twitter                      |
+| :---------------------:   | :---------------------:   | :-------------------------------------:|
+| Lukong Anne M             | <annemachinda@gmail.com>  |<a href="https://twitter.com/anne_machinda">@anne_machinda</a>  |
+| Nfon Andrew T             | <nfonandrew73@gmail.com>  |<a href = "https://twitter.com/nfonandrew73">@nfonandrew73</a>   |
+| Nyong Godwill N           | <nyonggodwill11@gmail.com>|<a href = "https://twitter.com/nyong_godwill">@nyong_godwill</a>  |
+| Ngwa Jude A               | <ngwa.jude@gmail.com>     |<a href = "https://twitter.com/judisco_jardon">@judisco_jardon</a> |
 
 # LICENSE
 this app is a free app, you are free to modify and use under the <a href="https://opensource.org/licenses/MIT">MIT</a> LICENSE
