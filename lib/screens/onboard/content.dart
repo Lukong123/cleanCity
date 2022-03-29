@@ -13,12 +13,12 @@ List<UnboardingContent> contents =[
       svgPictures: 'assets/icons/undraw4.svg',
      // image: 'assets/icons/undraw1.svg',
       title: "Welcome To CleanCity",
-      discription: "Keep the City Clean. Avoid Ilegal dumping of deaths  on land and water bodies"),
+      discription: "Keep the City Clean. Avoid Ilegal dumping of dirts  on land and water bodies"),
 
   UnboardingContent(
 
       svgPictures: 'assets/icons/undraw3.svg',
       //image: 'assets/images/undraw2.svg',
       title: "Locate TrashCans Arround the City",
-      discription: "Easily Loacate trashCans arround the City With this App and dump your deaths.")
+      discription: "Easily Loacate trashCans arround the City With this App and dump your dirts.")
 ];
