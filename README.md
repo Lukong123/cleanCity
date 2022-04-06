@@ -69,7 +69,9 @@ route to these places so it can be emptied. This will go a long way to reducing
 - show shortest route to full trash place
 
 # App
-You can get the app <a href="#">Here</a>
+
+- You can get the Community App <a href="https://drive.google.com/file/d/1oEFyVLjDrHXEeG-XUee0jpoGWsm0k11l/view?usp=sharing">Here</a>
+- You can get the Admin app <a href="https://drive.google.com/file/d/1i82ObM9yY1SjtRa7kkuLLQ0yPiZeN9xF/view?usp=sharing">Here</a>
 
 # Requirements
 - google_fonts: ^2.3.1
